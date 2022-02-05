@@ -1,12 +1,13 @@
 .remoteBlock {
-    height: 30vh;
+    /*min-height: 20vh;*/
+    padding: 20px;
     background-color: rgba(255, 242, 189, 0.35);
     display: flex;
     align-items: center;
 }
 
 .container {
-    border: 1px solid black;
+    /*border: 1px solid black;*/
     width: 80%;
     height: 60%;
     margin: 0 auto;
@@ -18,9 +19,14 @@
 
 .container h3 {
     margin-top: 0;
+    text-align: center;
 }
 
 .superButton {
-    width: 20%;
-    height: 30%;
+    text-decoration: none;
+    background-color: cadetblue;
+    padding: 10px 30px;
+    text-align: center;
+    margin-top: 10px;
+
 }

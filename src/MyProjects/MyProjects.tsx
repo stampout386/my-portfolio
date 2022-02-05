@@ -10,8 +10,11 @@ export const MyProjects = () => {
                 </div>
                 <div className={style.projects}>
                     <Project name={'Project 1'}
-                             description={'Ldlkdsljk dsflkdsjflksdjfdl sdfdlfjdflk '}/>
-                    <Project name={'Project 2'} description={'Ldlkdsljk dsflkdsjflksdjfdl sdfdlfjdflk ksdjflsdjsljdlk sdlfkjflsdjslk '}/>
+                             description={'Ldlkdsljk dsflkdsjflksdjfdl sdfdlfjdflk ksdjflsdjsljdlk sdlfkjflsdjslk'}/>
+                    <Project name={'Project 2'}
+                             description={'Ldlkdsljk dsflkdsjflksdjfdl sdfdlfjdflk ksdjflsdjsljdlk sdlfkjflsdjslk'}/>
+
+
                 </div>
             </div>
         </div>

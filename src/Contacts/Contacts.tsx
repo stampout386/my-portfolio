@@ -3,6 +3,7 @@ import style from './Contacts.module.css'
 export const Contacts = () => {
     return (
         <div className={style.contactsBlock}>
+
             <div className={style.container}>
                 <h3>Contacts</h3>
                 <form action="" className={style.form}>
@@ -11,7 +12,7 @@ export const Contacts = () => {
                     <textarea name="" id="" className={style.textarea}>
                     </textarea>
                 </form>
-                <button>Send form</button>
+                <a className={style.superButton}>Send form</a>
             </div>
         </div>
     )
